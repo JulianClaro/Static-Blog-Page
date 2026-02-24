@@ -1,0 +1,23 @@
+.article-title-specific {
+    border-top: 2px solid var(--font-color-gray);
+    color: var(--font-color-gray);
+    padding: 2rem 0;
+}
+
+.article-full{
+    margin-bottom: 6rem;
+}
+
+.article-paragraph{
+    font-size: var(--font-size-md);
+    padding: 2rem 0;
+    text-indent: 6rem;
+}
+
+.article-cover-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+    width: 100%;
+}

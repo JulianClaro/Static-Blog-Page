@@ -1,0 +1,52 @@
+:root {
+    --topic-font-light: rgb(128, 128, 128);
+}
+
+.darkmode {
+    --topic-font-light: rgb(255, 255, 255);
+}
+
+.article-list-page {
+    display: flex;
+    gap: var(--gap);
+}
+
+.articles-list a:hover{
+    color: var(--hover-light-color);
+}
+
+.topic-section{
+    margin-left: auto;  
+}
+
+.topic-list {
+    list-style: none;
+    margin-bottom: var(--margin-md);
+}
+
+.topic-section li{
+    width: 28rem;
+    border-bottom: 2px solid var(--topic-font-light);
+    padding: 2rem 0;
+
+}
+
+.topic-section li:first-child{padding-top: 0;}
+
+.topic-section button {
+    font-size: var(--font-size-md);
+    font-weight: bold;
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: var(--topic-font-light);
+}
+
+.topic-section button:hover {
+    color: var(--hover-light-color);
+    cursor: pointer;
+}
+
+.bx-filter {
+    font-size: var(--font-size-xl);
+}
